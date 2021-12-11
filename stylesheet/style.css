@@ -1,0 +1,35 @@
+.navbar, header {
+    background: url('images/engenharia.jpg') no-repeat center center fixed;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: top-center;
+    border: none;
+ }
+
+ body{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.navbar-brand:hover{
+    opacity: 1;
+}
+
+.bv{
+    font-size: 36px;
+}
+
+.nt{
+    font-size: 45px;
+}
+
+.btn-success{
+    background-color: #FF5D02;
+}
+
