@@ -120,6 +120,14 @@
     background-color:#EFEDED;
 }
 
+#portfolio{
+    background-color:#EFEDED;
+}
+
+.carousel-inner{
+    border-radius: 70px;
+}
+
 .text_img {
     font-family: Arial;
     text-align: center;
