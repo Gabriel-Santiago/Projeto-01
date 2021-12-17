@@ -84,6 +84,56 @@
 }
 /** Serviço **/
 
+/** Time **/
+#time{
+    background-color:#EFEDED;
+}
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+    border-color: #EFEDED;
+    background-color:#EFEDED;
+}
+/** Time **/
+
+/** Contato **/
+#contato{
+    background: url('images/maps-g613c067b9_1280\ 1.png') no-repeat center center fixed;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    border: none;
+}
+
+.btn-warning{
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    position:relative;
+}
+/** Contato **/
+
+/** Footer **/
+#footer{
+    background-color:#EFEDED;
+}
+
+#portfolio{
+    background-color:#EFEDED;
+}
+
+.carousel-inner{
+    border-radius: 70px;
+}
+
+.text_img {
+    font-family: Arial;
+    text-align: center;
+    color: #18171F;
+}
+
 /** Sobre **/
 * {
     margin: 0;
@@ -172,56 +222,4 @@
   .right::after {
     left: -25px;
     text-align: right;
-
-/** Sobre **/
-
-/** Time **/
-#time{
-    background-color:#EFEDED;
-}
-
-.card {
-    margin: 0 auto; 
-    float: none; 
-    margin-bottom: 10px; 
-    border-color: #EFEDED;
-    background-color:#EFEDED;
-}
-/** Time **/
-
-/** Contato **/
-#contato{
-    background: url('images/maps-g613c067b9_1280\ 1.png') no-repeat center center fixed;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position: center;
-    border: none;
-}
-
-.btn-warning{
-    color: white;
-    font-size: 20px;
-    border-radius: 10px;
-    position:relative;
-}
-/** Contato **/
-
-/** Footer **/
-#footer{
-    background-color:#EFEDED;
-}
-
-#portfolio{
-    background-color:#EFEDED;
-}
-
-.carousel-inner{
-    border-radius: 70px;
-}
-
-.text_img {
-    font-family: Arial;
-    text-align: center;
-    color: #18171F;
-}
+  }
