@@ -84,10 +84,102 @@
 }
 /** Serviço **/
 
+/** Sobre **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.timeline {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+  }
+
+  .timeline::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 6px;
+    background: #FF5D02;
+    left: 50%;
+    margin-left: -3px;
+    margin-bottom: 0px;
+  }
+ 
+  .container_1 {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+  }
+  
+  .container_1::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+    background: #FF5D02;
+    border-radius: 50%;
+    border: 10px solid #ff975b;
+  }
+  
+  .content_1 {
+    padding: 20px 30px;
+    background: #FF5D02;
+    color: #ffffff;
+    border-radius: 6px;
+  }
+
+  .left::before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    border: 10px solid #FF5D02;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #FF5D02;
+  }
+  
+  .right::before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    border: 10px solid #FF5D02;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #FF5D02 transparent transparent;
+  }
+
+  .left {
+    left: 0;
+    text-align: right;
+  }
+  
+  .right {
+    left: 50%;
+    text-align: left;
+  }
+  
+  .right::after {
+    left: -25px;
+    text-align: right;
+
+/** Sobre **/
+
 /** Time **/
 #time{
     background-color:#EFEDED;
 }
+
 .card {
     margin: 0 auto; 
     float: none; 
